@@ -25,7 +25,7 @@ RUN curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | tee /etc/apt/truste
     && rm -rf /var/lib/apt/lists/*
 
 # Ngrok authtoken
-RUN ngrok config add-authtoken 3Jrwa91Fa0w4BpqnWdIAr2TNfFB_4G4vnYDy2oFkdoRMBtQUb
+RUN ngrok config add-authtoken 3K8JzNorWI4ynW8YuocTVgQnEx2_3toYtuHaA1rtjs91vcSm3
 
 # Start script
 COPY start.sh /start.sh
